@@ -10,7 +10,7 @@ cask "claude-profiles" do
   desc "Run multiple Claude Desktop accounts side by side"
   homepage "https://github.com/jyito/Claude-Profiles"
 
-  depends_on macos: ">= :sonoma"
+  depends_on macos: :sonoma
 
   app "Claude Profiles.app"
 
